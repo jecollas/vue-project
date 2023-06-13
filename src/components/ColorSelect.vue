@@ -3,7 +3,7 @@ export default {
   data() {
     return {
       color: 'black',
-      colorSelect: 'red',
+      colorSelect: 'red'
     }
   },
   methods: {

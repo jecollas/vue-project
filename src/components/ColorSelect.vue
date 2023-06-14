@@ -30,6 +30,14 @@ export default {
     <option value="fuchsia" @click="colorClick">Pink</option>
   </select>
   
-  <br>
-  <p>Selected: {{ colorSelect }}</p>
+  <!-- <br> -->
+  <!-- <p>Selected: {{ colorSelect }}</p> -->
 </template>
+
+<style>
+
+select {
+  margin-top: 1em;
+}
+
+</style>

@@ -3,3 +3,8 @@
 * {
   font-family: "Raleway", sans-serif;
 }
+
+body {
+  margin: 2em;
+  background-color: whitesmoke;
+}

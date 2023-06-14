@@ -7,9 +7,9 @@ describe('ColorSelect', () => {
     const wrapper = shallowMount(ColorSelect, { 
         props: { 
             color: 'black',
-            colorSelect: 'red'
+            // colorSelect: 'red'
         } 
     })
-    expect(wrapper.text()).toContain('black')
+    expect(wrapper.text()).toMatch('black')
   })
 })
